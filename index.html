@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* large css */
+        /* .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: lightblue;
+            width: 80%;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .item {
+            width: 30%;
+            background-color: lightcoral;
+            height: 300px;
+        } */
+
+
+        /* mobile css */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: lightblue;
+            width: 100%;
+            margin: auto;
+        }
+
+        .item {
+            border: 5px solid black;
+            width: 100%;
+            background-color: lightcoral;
+            height: 300px;
+            margin: 20px;
+        }
+
+        @media screen and (max-width:576px) {
+            .item{
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+
+</html>
