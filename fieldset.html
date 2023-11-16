@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Form Family</title>
+    <!-- <style>
+        .container {
+            width: 500px;
+            margin: auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        fieldset {
+            padding-top: 20px;
+            border: 5px dotted rgb(138, 227, 183);
+            border-radius: 10px;
+            background: linear-gradient(45deg, rgb(185, 225, 255), rgb(211, 254, 211));
+        }
+
+        legend {
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(219, 89, 33);
+        }
+        .form{
+            padding-left: 40px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="container ">
+        <form action="" class="form mt-5">
+            <fieldset class="border border-5 p-5 ">
+                <legend class="mb-5">
+                    2023-10-03 Learn about
+                </legend>
+                <div class="mb-3 mt-3 row">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="姓甚名誰">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="不會亂call">
+                    </div>
+                </div>
+
+                <div class="mb-3 mt-3 row">
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">密碼:</label>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="別忘記">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="number" class="form-label">數字:</label>
+                        <input type="number" class="form-control" name="number" id="number" value="1"
+                            placeholder="至少一個">
+                    </div>
+                </div>
+
+                <div class="mb-3 mt-3 row">
+                    <div class="col-md-6">
+                        <label for="date" class="form-label">生日:</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="要滿18">
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <label for="row" class="form-label">下拉式選單:</label>
+                        </div>
+                        <select class="form-select" name="row" id="row">
+                            <option value="s">s1</option>
+                            <option value="s">s2</option>
+                            <option value="s">s3</option>
+                            <option value="s">s4</option>
+                            <option value="s">s5</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="mb-3 mt-3 row">
+                    <div class="col-md-6">
+                        <div class="form-control">
+                            <p class="form-label">單選:</p>
+                            <div class="form-check">
+                                <input type="radio" name="radio" id="radio1">
+                                <label for="radio1">選我</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="radio" id="radio2">
+                                <label for="radio2">選他</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="radio" id="radio3">
+                                <label for="radio3">選你</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-control">
+                            <p class="form-label">多選:</p>
+                            <div class="form-check">
+                                <input type="checkbox" name="checkbox[]" id="checkbox1">
+                                <label for="checkbox1">是他</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checkbox[]" id="checkbox2">
+                                <label for="checkbox2">是我</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" name="checkbox[]" id="checkbox3">
+                                <label for="checkbox3">是你</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Say Something!!!" style="height: 100px;"></textarea>
+                    <label class="form-label" for="textarea">說點什麼:</label><br>
+
+                </div>
+
+                <div class="text-end">
+                    <input type="reset" class="btn btn-outline-secondary col" value="重來吧你">
+                    <input type="submit" class="btn btn-outline-danger fw-bold col-2" value="走起 !">
+                </div>
+
+
+            </fieldset>
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
